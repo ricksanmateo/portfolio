@@ -73,4 +73,89 @@ nav {
   padding: 10px 32px;
   background: #fff;
   border-radius: 50px;
+  font-weight: 500;
+}
+
+.navigation-bar ul li.hire-btn a:hover {
+  background-color: #292423;
+  color: #fff;
+}
+
+/* main content */
+
+.main-content-wrapper {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-left span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #292423;
+  margin-bottom: 10px;
+}
+
+.col-left h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #292423;
+  line-height: 41px;
+  margin-bottom: 15px;
+}
+
+.col-left p {
+  width: 80%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+  color: #292423;
+  margin-bottom: 20px;
+  letter-spacing: 0.01em;
+}
+
+a.btn-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 25px;
+  background: #292423;
+  width: 190px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 35px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+a.btn-main:hover {
+  background: #fff;
+  color: #292423;
+}
+
+a.btn-main span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #35343d;
+  border-radius: 50px;
+  margin: 0 0 0 12px;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+a.btn-main span img {
+  margin: 0 0 7px 0;
+}
+
+a.btn-main:hover span {
+  background: #ccc;
 }
