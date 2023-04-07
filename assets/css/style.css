@@ -276,12 +276,12 @@ a.btn-main:hover span {
 }
 
 @media (max-width: 1200px) {
-  /* .navigation-bar{
+  .navigation-bar{
     display: none;
-  } */
+  }
   .navigation-bar {
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 0;
     right: 0;
     width: 90%;
